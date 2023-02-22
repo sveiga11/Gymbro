@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/confObjetivos1"
+        android:name="com.example.gymbro.ConfObjetivos1"
+        android:label="fragment_conf_objetivos1"
+        tools:layout="@layout/fragment_conf_objetivos1" >
+        <action
+            android:id="@+id/action_confObjetivos1_to_confObjetivos2"
+            app:destination="@id/confObjetivos2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_confObjetivos1_to_inicio"
+            app:destination="@id/inicio"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/confObjetivos2"
+        android:name="com.example.gymbro.ConfObjetivos2"
+        android:label="fragment_conf_objetivos2"
+        tools:layout="@layout/fragment_conf_objetivos2" >
+        <action
+            android:id="@+id/action_confObjetivos2_to_confObjetivos3"
+            app:destination="@id/confObjetivos3"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_confObjetivos2_to_confObjetivos1"
+            app:destination="@id/confObjetivos1"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/confObjetivos3"
+        android:name="com.example.gymbro.ConfObjetivos3"
+        android:label="fragment_conf_objetivos3"
+        tools:layout="@layout/fragment_conf_objetivos3" >
+        <action
+            android:id="@+id/action_confObjetivos3_to_confObjetivos2"
+            app:destination="@id/confObjetivos2"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.gymbro.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_confObjetivos1"
+            app:destination="@id/confObjetivos1"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/calculadoraMasa"
+        android:name="com.example.gymbro.CalculadoraMasa"
+        android:label="IMC"
+        tools:layout="@layout/fragment_calculadora_masa" />
+    <fragment
+        android:id="@+id/graficosActividad"
+        android:name="com.example.gymbro.GraficosActividad"
+        android:label="ACTIVIDAD"
+        tools:layout="@layout/fragment_graficos_actividad" />
+    <fragment
+        android:id="@+id/listaEjercicios"
+        android:name="com.example.gymbro.ListaEjercicios"
+        android:label="EJERCICIOS"
+        tools:layout="@layout/fragment_lista_ejercicios" >
+        <action
+            android:id="@+id/action_listaEjercicios_to_mostrarEjercicios"
+            app:destination="@id/mostrarEjercicios"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/mostrarEjercicios"
+        android:name="com.example.gymbro.mostrarEjercicios"
+        android:label="EJERCICIO"
+        tools:layout="@layout/fragment_mostrar_ejercicios" >
+        <action
+            android:id="@+id/action_mostrarEjercicios_to_listaEjercicios"
+            app:destination="@id/listaEjercicios"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/graficosEjercicioDiario"
+        android:name="com.example.gymbro.GraficosEjercicioDiario"
+        android:label="fragment_graficos_ejercicio_diario"
+        tools:layout="@layout/fragment_graficos_ejercicio_diario" />
+    <fragment
+        android:id="@+id/graficosActividadSemanal"
+        android:name="com.example.gymbro.GraficosActividadSemanal"
+        android:label="fragment_graficos_actividad_semanal"
+        tools:layout="@layout/fragment_graficos_actividad_semanal" />
+</navigation>

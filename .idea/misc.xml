@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/boton_add_kcal.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/boton_calcular_masa.xml" value="0.118" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/boton_configuracion.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/boton_ejercicio.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/boton_estar_de_pie.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/boton_kcal.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/boton_redondo.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/drawable_view_depie.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/drawable_view_ejercicio.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/drawable_view_kcal.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/ic_substraction_icon.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/ic_vector_rest.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/drawable/view_radius_grey.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/activity_main.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_calculadora_masa.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_conf_objetivos1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_conf_objetivos2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_conf_objetivos3.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_graficos_actividad.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_graficos_actividad_semanal.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_graficos_ejercicio_diario.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_inicio.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_lista_ejercicios.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_mostrar_ejercicios.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/fragment_nuevo_ejercicio.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/layout/viewholder_ejercicio.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/menu/bottom_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/mipmap-anydpi-v26/IconoAPP.xml" value="0.1885" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/mipmap-anydpi-v26/anillos_actividad.xml" value="0.177" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP08 - Programacio multimedia i dispositius mobils/UF1/gymbro/app/src/main/res/mipmap-anydpi-v26/anillos_actividad_round.xml" value="0.127" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
