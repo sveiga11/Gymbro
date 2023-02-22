@@ -54,7 +54,7 @@ public class ListaEjercicios extends Fragment {
 
         binding.recyclerView.addItemDecoration(new DividerItemDecoration(requireContext(), DividerItemDecoration.VERTICAL));
 
-        new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(
+        /*new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(
                 ItemTouchHelper.UP | ItemTouchHelper.DOWN,
                 ItemTouchHelper.RIGHT  | ItemTouchHelper.LEFT) {
 
@@ -70,7 +70,7 @@ public class ListaEjercicios extends Fragment {
                 ejerciciosViewModel.eliminar(ejercicio);
 
             }
-        }).attachToRecyclerView(binding.recyclerView);
+        }).attachToRecyclerView(binding.recyclerView);*/
 
         ejerciciosViewModel.obtener().observe(getViewLifecycleOwner(), new Observer<List<Ejercicio>>() {
             @Override
